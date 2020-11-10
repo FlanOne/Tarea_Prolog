@@ -1,0 +1,173 @@
+hermano(alberto).
+hermano(carlos).
+hermano(luis).
+
+dia(lunes).
+dia(martes). 
+dia(miercoles). 
+dia(jueves).
+dia(viernes). 
+dia(sabado).
+dia(domingo).
+
+frase('Hoy es el tercer dia que miento').
+frase('Hola, soy alberto').
+frase('Mañana será sabado').
+dialogo('Patricio se encontro con los trillisos el dia...').
+
+%LUNES%
+miente(alberto,lunes):-
+    frase('Hoy es el tercer dia que miento'),!,fail.
+miente(alberto,lunes):-
+    frase('Hola, soy alberto'),!,fail.
+miente(alberto,lunes):-
+    frase('Mañana será sabado'),!,fail.
+
+miente(carlos,lunes):-
+    frase('Hoy es el tercer dia que miento'),!,fail.
+miente(carlos,lunes):-
+    frase('Hola, soy alberto'),!,fail.
+miente(carlos,lunes):-
+    frase('Mañana será sabado'),!,fail.
+    
+miente(luis,lunes):-
+    frase('Hoy es el tercer dia que miento'),!,fail.
+miente(luis,lunes):-
+    frase('Hola, soy alberto'),!,fail.
+miente(luis,lunes):-
+    frase('Mañana será sabado'),!,fail.
+
+%MARTES%
+miente(alberto,martes):-
+    frase('Hoy es el tercer dia que miento'),!,fail.
+miente(alberto,martes):-
+    frase('Hola, soy alberto'),!,fail.
+miente(alberto,martes):-
+    frase('Mañana será sabado'),!,fail.
+
+miente(carlos,martes):-
+    frase('Hoy es el tercer dia que miento'),!,fail.
+miente(carlos,martes):-
+    frase('Hola, soy alberto'),!,fail.
+miente(carlos,martes):-
+    frase('Mañana será sabado'),!,fail.
+
+miente(luis,martes):-
+    frase('Hoy es el tercer dia que miento'),!,fail.
+miente(luis,martes):-
+    frase('Hola, soy alberto'),!,fail.
+miente(luis,martes):-
+    frase('Mañana será sabado'),!,fail.
+
+%MIERCOLES%
+miente(alberto,miercoles):-
+    frase('Hoy es el tercer dia que miento'),!,fail.
+miente(alberto,miercoles):-
+    frase('Hola, soy alberto'),!,fail.
+miente(alberto,miercoles):-
+    frase('Mañana será sabado'),!,fail.
+    
+miente(carlos,miercoles):-
+    frase('Hoy es el tercer dia que miento'),!,fail.
+miente(carlos,miercoles):-
+    frase('Hola, soy alberto'),!,fail.
+miente(carlos,miercoles):-
+    frase('Mañana será sabado'),!,fail.
+    
+miente(luis,miercoles):-
+    frase('Hoy es el tercer dia que miento'),!,fail.
+miente(luis,miercoles):-
+    frase('Hola, soy alberto'),!,fail.
+miente(luis,miercoles):-
+    frase('Mañana será sabado'),!,fail.
+
+%JUEVES%
+miente(alberto,jueves):-
+    frase('Hoy es el tercer dia que miento'),!,fail.
+miente(alberto,jueves):-
+    frase('Hola, soy alberto'),!,fail.
+miente(alberto,jueves):-
+    frase('Mañana será sabado'),!,fail.
+    
+miente(carlos,jueves):-
+    frase('Hoy es el tercer dia que miento'),!,fail.
+miente(carlos,jueves):-
+    frase('Hola, soy alberto'),!,fail.
+miente(carlos,jueves):-
+    frase('Mañana será sabado'),!,fail.
+    
+miente(luis,jueves):-
+    frase('Hoy es el tercer dia que miento'),!,fail.
+miente(luis,jueves):-
+    frase('Hola, soy alberto'),!,fail.
+miente(luis,jueves):-
+    frase('Mañana será sabado'),!,fail.
+
+%VIERNES%
+miente(alberto,viernes):-
+    frase('Hoy es el tercer dia que miento'),!,fail.
+miente(alberto,viernes):-
+    frase('Hola, soy alberto'),!,fail.
+miente(alberto,viernes):-
+    frase('Mañana será sabado').
+    
+miente(carlos,viernes):-
+    frase('Hoy es el tercer dia que miento'),!,fail.
+miente(carlos,viernes):-
+    frase('Hola, soy alberto').
+miente(carlos,viernes):-
+    frase('Mañana será sabado'),!,fail.
+    
+miente(luis,viernes):-
+    frase('Hoy es el tercer dia que miento').
+miente(luis,viernes):-
+    frase('Hola, soy alberto'),!,fail.
+miente(luis,viernes):-
+    frase('Mañana será sabado'),!,fail.
+
+%SABADO%
+miente(alberto,sabado):-
+    frase('Hoy es el tercer dia que miento'),!,fail.
+miente(alberto,sabado):-
+    frase('Hola, soy alberto'),!,fail.
+miente(alberto,sabado):-
+    frase('Mañana será sabado'),!,fail.
+    
+miente(carlos,sabado):-
+    frase('Hoy es el tercer dia que miento'),!,fail.
+miente(carlos,sabado):-
+    frase('Hola, soy alberto'),!,fail.
+miente(carlos,sabado):-
+    frase('Mañana será sabado'),!,fail.
+    
+miente(luis,sabado):-
+    frase('Hoy es el tercer dia que miento'),!,fail.
+miente(luis,sabado):-
+    frase('Hola, soy alberto'),!,fail.
+miente(luis,sabado):-
+    frase('Mañana será sabado'),!,fail.
+
+%DOMINGO%
+miente(alberto,domingo):-
+    frase('Hoy es el tercer dia que miento'),fail.
+miente(alberto,domingo):-
+    frase('Hola, soy alberto'),fail.
+miente(alberto,domingo):-
+    frase('Mañana será sabado'),fail.
+    
+miente(carlos,domingo):-
+    frase('Hoy es el tercer dia que miento'),fail.
+miente(carlos,domingo):-
+    frase('Hola, soy alberto'),fail.
+miente(carlos,domingo):-
+    frase('Mañana será sabado'),fail.
+    
+miente(luis,domingo):-
+    frase('Hoy es el tercer dia que miento'),fail.
+miente(luis,domingo):-
+    frase('Hola, soy alberto'),fail.
+miente(luis,domingo):-
+    frase('Mañana será sabado'),fail.
+
+respuesta(X,Y,Z):-dia(X),hermano(Y),frase(Z),miente(Y,X).
+respuesta2(X,Y,A):-dia(X),hermano(Y),miente(Y,X),dialogo(A).
